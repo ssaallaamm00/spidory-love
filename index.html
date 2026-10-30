@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هدية لسبايدوري ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="passwordScreen" class="password-screen">
+    <h1>قبل ما تدخل... ❤️</h1>
+    <p>اكتب التاريخ اللي عمرنا ما هننساه 🥹</p>
+
+    <input type="password" id="passwordInput" placeholder="اكتب الباسورد">
+    <button onclick="checkPassword()">دخول ❤️</button>
+
+    <p id="wrongPassword"></p>
+</div>
+
+    <div class="welcome scene hidden">
+        <div class="gift">🎁</div>
+
+        <h1>استنى يا سبايدوري ❤️</h1>
+
+        <p>
+            عندي ليك حاجة صغيرة...
+            <br>
+            بس قبل ما تبدأ، أوعدني إنك هتكمل للآخر 👀
+        </p>
+
+        <button onclick="openGift()">
+            افتح هديتك 🎁
+        </button>
+    </div>
+
+    <div id="scene2" class="scene hidden">
+        <div class="gift">🕷️❤️</div>
+
+        <h1>طب تعالى أحكيلك حكاية صغيرة...</h1>
+
+
+        <p>
+            حكاية بدأت بشخصين،
+            ومحدش فيهم كان يعرف
+            إن التاني هيبقى كل الحكاية 🥹❤️
+        </p>
+        <button onclick="nextScene()">
+    احكيلي أكتر ❤️
+</button>
+    </div>
+   <!-- المشهد الثالث: ألبوم الذكريات -->
+<div id="scene3" class="scene hidden">
+
+    <div class="gift">📸❤️</div>
+
+    <h1>ألبوم حكايتنا</h1>
+
+    <p>
+        كل صورة هنا وراها حكاية،
+        وكل لحظة فيها جزء مني ومنك 🥹
+    </p>
+
+    <div id="beginningGallery" class="gallery">
+    <img src="images/beginning/photo_42_2026-10-30_13-50-17.jpg" alt="بداية حكايتنا">
+    <img src="images/beginning/photo_41_2026-10-30_13-50-17.jpg" alt="بداية حكايتنا">
+    <img src="images/beginning/photo_40_2026-10-30_13-50-17.jpg" alt="بداية حكايتنا">
+</div>
+
+    <h2>أحلى ذكرياتنا 💕</h2>
+       <div id="memoriesGallery" class="gallery">
+    <img src="images/memories/selected/photo_14_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_19_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_1_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_20_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_21_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_24_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_28_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    </div>
+
+    <h2>يوم بقت حكايتنا وعد 💍</h2>
+    
+<div id="engagmentGallery" class="gallery">
+    <img src="images/engagment/5965373892845048127_119.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/5965373892845048128_121.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_10_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_11_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_12_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_13_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_43_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_9_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+</div>
+    <h2>لحظات بصوت وصورة 🎥</h2>
+    <div id="videosGallery" class="gallery">
+
+    <video controls>
+        <source src="images/videos/video_2026-10-30_13-49-53 (2).mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="images/videos/video_2026-10-30_13-49-53 (3).mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="images/videos/video_2026-10-30_13-49-53.mp4" type="video/mp4">
+    </video>
+    <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هدية لسبايدوري ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="welcome scene hidden">
+        <div class="gift">🎁</div>
+
+        <h1>استنى يا سبايدوري ❤️</h1>
+
+        <p>
+            عندي ليك حاجة صغيرة...
+            <br>
+            بس قبل ما تبدأ، أوعدني إنك هتكمل للآخر 👀
+        </p>
+
+        <button onclick="openGift()">
+            افتح هديتك 🎁
+        </button>
+    </div>
+
+    <div id="scene2" class="scene hidden">
+        <div class="gift">🕷️❤️</div>
+
+        <h1>طب تعالى أحكيلك حكاية صغيرة...</h1>
+
+
+        <p>
+            حكاية بدأت بشخصين،
+            ومحدش فيهم كان يعرف
+            إن التاني هيبقى كل الحكاية 🥹❤️
+        </p>
+        <button onclick="nextScene()">
+    احكيلي أكتر ❤️
+</button>
+    </div>
+   <!-- المشهد الثالث: ألبوم الذكريات -->
+<div id="scene3" class="scene hidden">
+
+    <div class="gift">📸❤️</div>
+
+    <h1>ألبوم حكايتنا</h1>
+
+    <p>
+        كل صورة هنا وراها حكاية،
+        وكل لحظة فيها جزء مني ومنك 🥹
+    </p>
+
+    <div id="beginningGallery" class="gallery">
+    <img src="images/beginning/photo_42_2026-10-30_13-50-17.jpg" alt="بداية حكايتنا">
+    <img src="images/beginning/photo_41_2026-10-30_13-50-17.jpg" alt="بداية حكايتنا">
+    <img src="images/beginning/photo_40_2026-10-30_13-50-17.jpg" alt="بداية حكايتنا">
+</div>
+
+    <h2>أحلى ذكرياتنا 💕</h2>
+       <div id="memoriesGallery" class="gallery">
+    <img src="images/memories/selected/photo_14_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_19_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_1_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_20_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_21_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_24_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    <img src="images/memories/selected/photo_28_2026-10-30_13-50-17.jpg" alt="من ذكرياتنا">
+    </div>
+
+    <h2>يوم بقت حكايتنا وعد 💍</h2>
+    
+<div id="engagmentGallery" class="gallery">
+    <img src="images/engagment/5965373892845048127_119.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/5965373892845048128_121.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_10_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_11_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_12_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_13_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_43_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+    <img src="images/engagment/photo_9_2026-10-30_13-50-17.jpg" alt="يوم خطوبتنا">
+</div>
+    <h2>لحظات بصوت وصورة 🎥</h2>
+    <div id="videosGallery" class="gallery">
+
+    <video controls>
+        <source src="images/videos/video_2026-10-30_13-49-53 (2).mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="images/videos/video_2026-10-30_13-49-53 (3).mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="images/videos/video_2026-10-30_13-49-53.mp4" type="video/mp4">
+    </video>
+   <div class="final-surprise">
+    <div class="gift">💌</div>
+
+    <h1>استنى... لسه فيه حاجة أخيرة ليك ❤️</h1>
+
+    <p>كل اللي شوفته ده مجرد جزء صغير من حكايتنا...</p>
+
+    <button onclick="openLetter()">
+        افتح آخر مفاجأة 🥹
+    </button>
+
+    
+   <div class="final-surprise">
+    <div class="gift">💌</div>
+
+    <h1>استنى... لسه فيه حاجة أخيرة ليك ❤️</h1>
+
+    <p>كل اللي شوفته ده مجرد جزء صغير من حكايتنا...</p>
+
+    <button onclick="openLetter()">
+        افتح آخر مفاجأة 🥹
+    </button>
+
+    <div id="loveLetter" class="hidden">
+        <h2>إلى سبايدوري ❤️</h2>
+        <p>
+            هنا هتكون رسالتي الأخيرة ليك...
+        </p>
+    </div>
+</div> 
+
+
+</div>
+
+<script>
+
+    document.addEventListener("click", function(event) {
+
+        const heart = document.createElement("span");
+
+        heart.innerHTML = "❤️";
+
+        heart.style.position = "fixed";
+        heart.style.left = event.clientX + "px";
+        heart.style.top = event.clientY + "px";
+        heart.style.fontSize = "25px";
+        heart.style.pointerEvents = "none";
+        heart.style.zIndex = "9999";
+
+        document.body.appendChild(heart);
+
+        heart.animate([
+            {
+                transform: "translateY(0) scale(1)",
+                opacity: 1
+            },
+            {
+                transform: "translateY(-80px) scale(1.8)",
+                opacity: 0
+            }
+        ], {
+            duration: 1000
+        });
+
+        setTimeout(function() {
+            heart.remove();
+        }, 1000);
+
+    });
+</script>
+<audio id="loveSong" src="AudioCutter_Angham_Ana_Aysha_Hala_أنغام_أنا_عايشة_حالةMP3_160K2.mp3" loop></audio>
+<div class="decorations">
+
+    <span class="heart heart1">❤️</span>
+    <span class="heart heart2">💕</span>
+    <span class="heart heart3">💗</span>
+    <span class="heart heart4">💖</span>
+    <span class="heart heart5">❤️</span>
+    <span class="heart heart6">💘</span>
+    <span class="heart heart7">💗</span>
+    <span class="heart heart8">💕</span>
+
+    <span class="spider">🕷️</span>
+<span class="spider spider1">🕷️</span>
+<span class="spider spider2">🕷️</span>
+<span class="spider spider3">🕷️</span>
+<span class="spider spider4">🕷️</span>
+<span class="spider spider5">🕷️</span>
+<span class="spider spider6">🕷️</span>
+<span class="spider spider7">🕷️</span>
+<span class="spider spider8">🕷️</span>
+</div>
+<script>
+function checkPassword() {
+    const password = document.getElementById("passwordInput").value;
+
+    if (password === "17/1/2026") {
+        document.getElementById("passwordScreen").style.display = "none";
+        document.querySelector(".welcome").classList.remove("hidden");
+    } else {
+        document.getElementById("wrongPassword").innerText =
+            "الباسورد غلط يا سبايدوري ❤️";
+    }
+}
+function openGift() {
+    document.querySelector(".welcome").classList.add("hidden");
+    document.getElementById("scene2").classList.remove("hidden");
+
+    const song = document.getElementById("loveSong");
+    if (song) {
+        song.play();
+    }
+}function nextScene() {
+    document.getElementById("scene2").classList.add("hidden");
+    document.getElementById("scene3").classList.remove("hidden");
+}
+function openLetter() {
+    document.getElementById("loveLetter").classList.remove("hidden");
+}
+</script>
+
+
+</body>
+
+</html>
